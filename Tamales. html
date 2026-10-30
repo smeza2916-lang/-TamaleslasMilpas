@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>#TamalesLasMilpas - Huatabampo</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<style>
+:root{--amarillo:#FFC93C;--rojo:#C5282F;--verde:#2D6A4F;--crema:#FFF8E7}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Poppins',sans-serif;background:var(--crema);color:#222}
+header{background:var(--rojo);color:white;padding:15px 20px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10}
+.logo{font-family:'Playfair Display';font-size:26px}.logo span{color:var(--amarillo)}
+nav a{color:white;text-decoration:none;margin-left:15px;font-weight:600}
+.hero{background:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.45)),url('https://images.unsplash.com/photo-1615870216519-2f9fa575fa5c?w=1200');background-size:cover;background-position:center;color:white;text-align:center;padding:90px 20px}
+.hero h1{font-family:'Playfair Display';font-size:48px}
+.hero h1 em{color:var(--amarillo);font-style:normal}
+.btn{display:inline-block;background:var(--amarillo);color:#000;padding:14px 28px;border-radius:30px;font-weight:700;text-decoration:none;margin:5px}
+.btn-green{background:var(--verde);color:white}
+.section{padding:60px 20px;max-width:1000px;margin:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px;margin-top:30px}
+.card{background:white;border-radius:20px;padding:25px;box-shadow:0 10px 25px rgba(0,0,0,0.08);text-align:center;border-top:7px solid var(--amarillo)}
+.card h3{font-size:23px;margin:12px 0}
+.menu-image{width:100%;height:180px;object-fit:cover;border-radius:15px}
+#contacto{background:var(--rojo);color:white;text-align:center;border-radius:30px;margin:20px;padding:50px 20px}
+footer{background:#111;color:#ccc;text-align:center;padding:20px;font-size:14px}
+.whatsapp{position:fixed;bottom:20px;right:20px;background:#25D366;color:white;width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:30px;text-decoration:none}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">#Tamales<span>LasMilpas</span></div>
+<nav><a href="#menu">Menú</a><a href="#contacto">Pedir</a></nav>
+</header>
+
+<section class="hero">
+<h1>¡Tamales de verdad,<br><em>de Las Milpas!</em></h1>
+<p style="margin:20px auto;max-width:600px;font-size:18px">Tradición de Huatabampo, hechos diario con maíz nixtamalizado y mucho amor. #TamalesLasMilpas</p>
+<a class="btn" href="https://wa.me/5210000000000?text=Hola%20quiero%20tamales%20Las%20Milpas" target="_blank">Pedir por WhatsApp 📲</a>
+</section>
+
+<section class="section" id="menu">
+<h2 style="font-family:Playfair Display;font-size:36px;text-align:center">Nuestros 3 sabores</h2>
+<p style="text-align:center;margin-top:10px;color:#666">Los buenos de verdad, los de siempre</p>
+<div class="grid">
+<div class="card">
+<img class="menu-image" src="https://images.unsplash.com/photo-1534352956036-cd81e27dd615?w=600">
+<h3>🥩 Carne con Chile Rojo</h3>
+<p>El clásico de la casa. Carne jugosa de puerco en salsa roja de la abuela, con el toque picosito perfecto. El que todos piden y nunca falla.</p>
+</div>
+<div class="card">
+<img class="menu-image" src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600">
+<h3>🫘 Frijol con Queso</h3>
+<p>Frijol yorimuni guisado con chile y queso fresco de la región. Cremoso, llenador y 100% sonorense.</p>
+</div>
+<div class="card">
+<img class="menu-image" src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600">
+<h3>🌽 Elote Tradicional</h3>
+<p>Dulcecito, esponjoso, con granitos de elote natural. Ideal para el cafecito de la tarde. El favorito de toda la familia.</p>
+</div>
+</div>
+</section>
+
+<section class="section" id="contacto">
+<h2 style="font-size:34px">¿Cuántos te apartamos hoy?</h2>
+<p style="margin:15px 0">Pregunta por nuestros paquetes familiares por WhatsApp</p>
+<a class="btn" href="https://wa.me/5210000000000">WhatsApp Directo</a>
+<a class="btn btn-green" href="tel:+526471000000">Llamar</a>
+<p style="margin-top:20px">📍 Las Milpas, Huatabampo, Sonora</p>
+<p>#TamalesLasMilpas en Facebook e Instagram</p>
+</section>
+
+<footer>© 2026 #TamalesLasMilpas - De Las Milpas, Huatabampo, con amor.</footer>
+<a class="whatsapp" href="https://wa.me/5210000000000" target="_blank">💬</a>
+</body>
+</html>
